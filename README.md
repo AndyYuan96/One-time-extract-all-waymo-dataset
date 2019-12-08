@@ -163,7 +163,7 @@ When saving points, I follow waymo that throw the points whose range is less tha
 
 ​	Each calibration matrix txt file has 5 rows, from first row to last row, seperate represent FRONT, FRONT_LEFT, FRONT_RIGHT,SIDE_LEFT,SIDE_RIGHT 's calibration matrix, each matrix's shape is (3, 4)
 
- 	![1571806892636](/home/ovo/.config/Typora/typora-user-images/1571806892636.png)
+ 	![1571806892636](pics/1571806892636.png)
 
 
 
