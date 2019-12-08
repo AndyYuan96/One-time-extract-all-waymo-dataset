@@ -1,4 +1,4 @@
-# Waymo
+# One time extract all waymo dataset 
 
 
 
@@ -8,6 +8,7 @@
 1.
 pip3 install upgrade --pip
 pip3 install waymo-open-dataset==1.0.1 --user
+pip3 install tqdm
 
 2.download waymo dataset, organize the data as follow
   Root_path:
@@ -18,8 +19,13 @@ pip3 install waymo-open-dataset==1.0.1 --user
  
 3. python waymo.py Root_path saved_root_path debug(0/1, 0 not debug, 1 debug)
 
-
 ```
+
+
+
+## Time consuming:
+
+​	Consuming one week for 1000 segments.
 
 ## Quantitives
 
@@ -147,7 +153,7 @@ Each lidar frame is save as range image in Waymo, I first convert the range imag
 
 When saving points, I follow waymo that throw the points whose range is less than 0.
 
-![1571988679212](/home/ovo/.config/Typora/typora-user-images/1571988679212.png)
+![1571988679212](pics/1571988679212.png)
 
 ​	green: in_nlz, red: not_in_nlz
 
